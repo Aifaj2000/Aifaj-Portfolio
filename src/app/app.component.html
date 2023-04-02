@@ -1,0 +1,72 @@
+
+ <!-- Header -->
+ <header id="masthead" class="site-header">
+  <nav id="primary-navigation" class="site-navigation" data-spy="affix">
+      <div class="container">
+          <div class="navbar-header page-scroll">
+
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#portfolio-perfect-collapse" aria-expanded="false" >
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+              </button>
+              
+              <!-- Name -->
+              <div class="page-scroll site-logo">
+                  <a href="#top">Aifaj</a>
+              </div>
+
+          </div><!-- /.navbar-header -->
+
+          <div class="main-menu collapse navbar-collapse" id="portfolio-perfect-collapse">
+
+              <!-- Navigation -->
+              <ul class="nav navbar-nav navbar-right">
+
+                  <li class="page-scroll"><a [routerLink]="'/home'">Home</a></li>
+                  <!-- <li class="page-scroll"><a [routerLink]="'/home'">Intro</a></li> -->
+                  <li class="page-scroll"><a [routerLink]="'/about'">About</a></li>
+                  <li class="page-scroll"><a [routerLink]="'/education'">Education</a></li>
+                  <li class="page-scroll"><a [routerLink]="'/skills'">Skilss</a></li>
+                  <li class="page-scroll"><a [routerLink]="'/works'">Works</a></li>
+                  <li class="page-scroll"><a [routerLink]="'/certificate'">Certificate</a></li>
+                  <li class="page-scroll"><a [routerLink]="'/contact'">Contact</a></li>
+                  
+              </ul><!-- /.navbar-nav -->
+
+          </div><!-- /.navbar-collapse -->
+      </div>
+  </nav><!-- /.primary-navigation -->
+</header><!-- /#header -->
+<!-- End Header -->
+<router-outlet></router-outlet>
+<!-- Footer --> 
+<footer id="colophon" class="site-footer">
+
+  <div class="container-fluid">
+
+      <ul class="list-unstyled list-inline">
+        <li class="page-scroll"><a [routerLink]="'/home'">Home</a></li>
+        <!-- <li class="page-scroll"><a [routerLink]="'/home'">Intro</a></li> -->
+        <li class="page-scroll"><a [routerLink]="'/about'">About</a></li>
+        <li class="page-scroll"><a [routerLink]="'/education'">Education</a></li>
+        <li class="page-scroll"><a [routerLink]="'/skills'">Skilss</a></li>
+        <li class="page-scroll"><a [routerLink]="'/works'">Works</a></li>
+        <li class="page-scroll"><a [routerLink]="'/certificate'">Certificate</a></li>
+        <li class="page-scroll"><a [routerLink]="'/contact'">Contact</a></li>
+      </ul>
+
+      <div class="page-scroll">
+          <a href="#top" class="rectangle">
+              <i class="fa fa-angle-double-up"></i>
+          </a>
+      </div>
+
+  </div>
+
+  <div class="container text-center">
+      <p class="copyright">&copy; <a  target="_blank">Design By Aifaj Pathan</a> - 2023</p>
+  </div>
+
+</footer><!-- /#footer -->
+<!-- End Footer --> 
