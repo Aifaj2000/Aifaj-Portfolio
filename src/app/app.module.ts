@@ -11,6 +11,7 @@ import { EducationComponent } from './education/education.component';
 import { AboutComponent } from './about/about.component';
 import { SkillsComponent } from './skills/skills.component';
 import { CertificateComponent } from './certificate/certificate.component';
+import { HashLocationStrategy, LocationStrategy } from '@angular/common';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { CertificateComponent } from './certificate/certificate.component';
     BrowserModule,
     AppRoutingModule
   ],
-  providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
+  providers: [    { provide: LocationStrategy, useClass: HashLocationStrategy }
+]
 })
 export class AppModule { }
