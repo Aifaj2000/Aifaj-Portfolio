@@ -1,0 +1,13 @@
+.ani {
+    
+    /* background-color: red; */
+    color: rgb(255, 255, 255);
+    animation-name: ani;
+    animation-duration: 7s;
+  }
+  
+  @keyframes ani {
+    from {color: rgb(249, 180, 120);}
+    to {color: rgb(0, 238, 255);}
+  
+  }
